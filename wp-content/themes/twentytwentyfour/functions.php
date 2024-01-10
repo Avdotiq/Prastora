@@ -204,3 +204,9 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+// Регистрация пользовательского меню
+function register_my_menu() {
+    register_nav_menu('main', __('Main'));
+}
+add_action('after_setup_theme', 'register_my_menu');
