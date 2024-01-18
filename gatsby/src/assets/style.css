@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before {
+    box-sizing: border-box;
+}
+
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: inherit;
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+img,
+figure,
+fieldset,
+ul,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+ol li,
+ul li {
+    padding-left: 0;
+}

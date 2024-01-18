@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -30,7 +30,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`,
+        icon: `src/assets/images/logo.png`,
       },
     },
     {
@@ -38,7 +38,7 @@ module.exports = {
       options: {
         alias: {
           components: `${__dirname}/src/components`,
-          styles: `${__dirname}/src/styles`,
+          styles: `${__dirname}/src/assets`,
         },
       },
     },
