@@ -5,7 +5,6 @@ import { Breakpoint } from '../Grid';
 
 const style = css`
   margin: 0;
-  font-family: 'Inter', sans-sans-serif;
   font-weight: 700;
   line-height: 1.25;
   color: ${Colors.primary};

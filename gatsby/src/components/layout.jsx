@@ -7,7 +7,7 @@
 
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import 'styles/style.css';
+import 'assets/style.css';
 
 import Header from './Header';
 import { Container } from './UI/Grid';

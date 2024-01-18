@@ -28,7 +28,7 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#FFFFFF`,
         display: `minimal-ui`,
         icon: `src/assets/images/logo.png`,
       },
@@ -38,7 +38,7 @@ module.exports = {
       options: {
         alias: {
           components: `${__dirname}/src/components`,
-          styles: `${__dirname}/src/assets`,
+          assets: `${__dirname}/src/assets`,
         },
       },
     },
