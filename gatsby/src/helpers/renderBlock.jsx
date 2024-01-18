@@ -1,5 +1,5 @@
 import React from 'react';
-import PopularPost from '../blocks/PopularPost';
+import PopularPost from 'components/Blocks/PopularPost';
 
 export const renderBlock = (item) => {
     switch (item.fieldGroupName) {

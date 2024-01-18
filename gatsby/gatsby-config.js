@@ -33,5 +33,14 @@ module.exports = {
         icon: `src/images/logo.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          components: `${__dirname}/src/components`,
+          styles: `${__dirname}/src/styles`,
+        },
+      },
+    },
   ],
 };
