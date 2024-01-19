@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    text-decoration: none;
+    display: block;
 }
 
 b,
@@ -53,6 +53,10 @@ p {
 b,
 strong {
     font-weight: bold;
+}
+
+ul {
+    list-style: none;
 }
 
 ol li,

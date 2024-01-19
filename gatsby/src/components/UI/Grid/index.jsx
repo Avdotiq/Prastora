@@ -28,7 +28,7 @@ export const Breakpoint = {
 };
 
 const gridVariable = {
-  contentWidth: '1216px',
+  contentWidth: '1280px',
   desktopPadding: '32px',
   mobilePadding: '15px',
 };
@@ -36,13 +36,11 @@ const gridVariable = {
 export const Container = styled.div`
   box-sizing: border-box;
   width: 100%;
-  max-width: calc(${gridVariable.contentWidth} + ${gridVariable.mobilePadding});
+  max-width: ${gridVariable.contentWidth};
   margin: 0 auto;
   padding: 0 ${gridVariable.mobilePadding};
   ${Breakpoint.sl} {
-    max-width: calc(
-      ${gridVariable.contentWidth} + ${gridVariable.desktopPadding}
-    );
+    max-width: ${gridVariable.contentWidth};
     padding: 0 ${gridVariable.desktopPadding};
   }
 `;

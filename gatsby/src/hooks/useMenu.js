@@ -16,5 +16,5 @@ export const useMenu = () => {
     }
   `);
 
-  return data.allWpMenu?.nodes;
+  return data.allWpMenu.nodes[0].menuItems?.nodes;
 };
